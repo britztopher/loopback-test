@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html ng-app='myApp'>
+<title>MyHome</title>
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+
+    <!--MUTUAL CSS FILES-->
+    <!--<link rel='stylesheet' href='css/bootstrap.css' type='text/css'/>-->
+    <link rel='stylesheet' href='js/lib/bootstrap/dist/css/bootstrap.min.css' type='text/css'/>
+
+</head>
+<body ng-controller="mainController">
+
+
+<div ng-view></div>
+
+
+</body>
+
+
+<!--LIBS-->
+<script src="js/lib/angular/angular.js"></script>
+<script src="js/lib/angular-resource/angular-resource.js"></script>
+<script src="js/lib/angular-route//angular-route.js"></script>
+
+<script src="js/lib/angular-bootstrap/ui-bootstrap.js"></script>
+<script src="js/lib/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+
+<!--<script src="js/lib/bootstrap/dist/js/bootstrap.min.js"></script>-->
+
+
+<script src="js/app/app.js"></script>
+
+<!-- SERVICES-->
+<script src="js/app/services/lb_services.js"></script>
+<script src="js/app/services/user_services.js"></script>
+<script src="js/app/services/common_services.js"></script>
+
+<!-- Controllers-->
+<script src="js/app/controllers/controllers.js"></script>
+
+</html>

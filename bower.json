@@ -1,0 +1,21 @@
+{
+  "name": "frank-insight",
+  "dependencies": {
+    "angular": "1.2.15",
+    "angular-animate": "1.2.15",
+    "angular-route": "1.2.15",
+    "angular-resource": "1.2.15",
+    "angular-mocks": "1.2.15",
+    "angular-bootstrap": "0.10.*",
+    "angularjs-scope.safeapply": "*",
+    "angularytics": "*",
+    "jquery": "2.1.0",
+    "angular-sanitize": "latest",
+    "angularjs-slider": "git://github.com/rzajac/angularjs-slider.git#latest",
+    "angular-ui-utils": "bower-mask",
+    "bootstrap": "~3.1.1"
+  },
+  "resolutions": {
+    "angular": "1.2.15"
+  }
+}
